@@ -1,13 +1,9 @@
-
-
-.ButtonAppBar.appBar.logoTarup.mainLogo{
-    width: 35;
-    height: 72;
-    
-
-}
-class.menuButton{
-    width: 35;
-    height: 72;
-    
+.LAbarraBlanca{
+    width: 100%;
+    height:70%;
+    background-color: azure;
+    display: flex;
+    position: sticky;
+    top:0;
+    z-index: 999;
 }
