@@ -1,0 +1,19 @@
+div.efemeride{
+    margin-top: 10px;
+    margin-left: 700px;
+    margin-right: 50px;
+    height: 700px;
+    max-width: 500%;
+    border: blue;
+    background-color: rgb(131, 131, 143);
+   
+}
+#ok{
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+}
+h1{
+    margin-left: 50px;
+
+}

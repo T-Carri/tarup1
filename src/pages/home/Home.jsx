@@ -6,10 +6,12 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import  './Home.css'
+import  './Home.css';
+import Efemeride from './efemeride';
+import Login from '../login/login'
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 5,
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -17,11 +19,8 @@ const useStyles = makeStyles((theme) => ({
     height: 50
   },
   title: {
-
-    
     flexGrow: 1
-    ,
-  },
+    },
 }));
 
 function ButtonAppBar() {
@@ -45,6 +44,7 @@ function ButtonAppBar() {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
+     
     </div>
   );
 }
@@ -69,8 +69,19 @@ function ButtonAppBar() {
     }
       render() {
         return (
-            <ButtonAppBar/>
-           
+           <>
+           <div class="acceso">
+              <ButtonAppBar/>,
+              <Login/>
+              <h1>wtf</h1>,
+              <Efemeride/>
+              
+            </div>
+            </>
+             
+            
+               
+
            //<h1>helloou</h1>
            //{areadeAcceso}
            //{efemeride}
