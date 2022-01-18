@@ -70,9 +70,12 @@ function ButtonAppBar() {
       render() {
         return (
            <>
-           <div class="acceso">
-              <ButtonAppBar/>,
-              <Login/>
+           <div class="">
+           <ButtonAppBar/>
+           </div>,
+           <div class="home">
+              
+             <Login/>
               <h1>wtf</h1>,
               <Efemeride/>
               

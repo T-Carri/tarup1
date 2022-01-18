@@ -1,11 +1,11 @@
 div.efemeride{
-    margin-top: 10px;
-    margin-left: 700px;
-    margin-right: 50px;
-    height: 700px;
-    max-width: 500%;
+  
+    height: 400px;
+    width: 300px;
     border: blue;
     background-color: rgb(131, 131, 143);
+    margin-right: 5%;
+
    
 }
 #ok{

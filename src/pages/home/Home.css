@@ -1,7 +1,16 @@
 body{
     background-color: rgb(114, 15, 207);
+    
 }
-div.acceso{
+div.home{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1000px;
+    width: 1800px;
+    background-color: cornsilk;
+    display: -webkit-inline-box;
+    position: static;
+
     
     
 }
@@ -15,5 +24,6 @@ div.acceso{
 class.menuButton{
     width: 35;
     height: 72;
+    margin-bottom: 4%;
     
 }
