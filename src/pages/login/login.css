@@ -1,11 +1,64 @@
 div.login{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    height: 700px;
+    width: 400px;
+    background-color: rgb(211, 208, 205);
     
-    height: 200px;
-    width: 200px;
-    background-color: burlywood;
-    margin-left: 100px;
-    
+    float: left;
+
+    padding: 20px;  
+   }
+   h1{
+    font-family: 'Fredoka', sans-serif;
+    margin: 4%;
+    position: relative;
+    left: 25%;
+      font-size: 20px;
+  }
+
+   div.acces{ 
+       height: 600px;
+       width: 300px;
+       background-color: rgb(209, 213, 216);
+       position: relative;
+       left: 6%;
+       margin: 2%;
+       
+      }
+
+    .loginBox{
+     position: relative;
+     margin: 8%;
+     top: 25%;
+     display: block;
+
+ } 
+
+ .btn{
+   display: block;
+   position: relative;
+   left:28%;
+   margin: 5%;
+   background-color: forestgreen;
+   }
+ 
+  
+
+ 
+ input{
+   margin: 2%;
+   position: relative;
+   left: 15%; 
+  }
+
+
+  
+
+
+
+
+
+
    
-
-
-}

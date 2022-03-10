@@ -76,7 +76,7 @@ function ButtonAppBar() {
            <div class="home">
               
              <Login/>
-              <h1>wtf</h1>,
+              
               <Efemeride/>
               
             </div>

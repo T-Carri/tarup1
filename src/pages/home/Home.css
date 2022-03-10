@@ -1,15 +1,19 @@
 body{
-    background-color: rgb(114, 15, 207);
+    background-color: rgb(193, 192, 194);
     
 }
 div.home{
-    margin-left: 5%;
-    margin-right: 5%;
+    
     height: 1000px;
-    width: 1800px;
+    max-width: 1800px;
     background-color: cornsilk;
-    display: -webkit-inline-box;
-    position: static;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 65px;
+    float: left;
+    margin:0 auto;
+    
 
     
     
